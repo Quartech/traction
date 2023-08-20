@@ -3,12 +3,15 @@
     <div class="col-12 md:col-6 xl:col-4">
       <div class="px-8">
         <div class="pt-4 pb-6">
-          <img src="/img/bc/bc_logo.png" class="logo-bc" />
-
           <img
+            src="/img/quartech/Quartech logo 300px.png"
+            class="logo-quartech"
+          />
+          <!-- TODO: Replace -->
+          <!-- <img
             src="/img/logo/traction-logo-bc-text.svg"
             class="logo-traction"
-          />
+          /> -->
         </div>
 
         <!-- Logging In -->
@@ -78,11 +81,12 @@
       </div>
     </div>
 
-    <div class="cover-image hidden md:block col-0 md:col-6 xl:col-8 p-0">
+    <!-- TODO: Replace -->
+    <!-- <div class="cover-image hidden md:block col-0 md:col-6 xl:col-8 p-0">
       <span v-if="config.frontend.ux.coverImageCopyright" class="copyright">
         {{ config.frontend.ux.coverImageCopyright }}
       </span>
-    </div>
+    </div> -->
   </div>
 </template>
 

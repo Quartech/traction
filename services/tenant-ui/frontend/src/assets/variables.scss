@@ -1,24 +1,24 @@
 // Theme variables
-$tenant-ui-primary-color: #003366; // Main color blocks
+$tenant-ui-primary-color: #ba0020; // Main color blocks
 $tenant-ui-text-on-primary: #ffffff;
-$tenant-ui-secondary-color: #3c5973; // Buttons, actions
-$tenant-ui-accent-color: #fcba19;
+$tenant-ui-secondary-color: #3d3935; // Buttons, actions
+$tenant-ui-accent-color: #a7a8aa;
 $tenant-ui-secondary-active: darken( $tenant-ui-secondary-color, 10% );
 $tenant-ui-shadow: lighten( $tenant-ui-secondary-color, 30% );
-$tenant-ui-flat-highlight: #ebeef3;
+$tenant-ui-flat-highlight: #f3eeeb; // <-- TODO: change
 
 // General text colors
 $tenant-ui-text-success: #336C37;
 $tenant-ui-text-danger: #F84949;
 $tenant-ui-text-warning: #cf9605;
-$tenant-ui-link-color: #3a5b8b;
-$tenant-ui-button-link-color: #385A8A;
+$tenant-ui-link-color: #3d3935;
+$tenant-ui-button-link-color: #3d3935;
 
 // Backgrounds/ borders
 $tenant-ui-panel-back-color: #F8F9FA;
 $tenant-ui-panel-border-color: #DEE2E6;
 $tenant-ui-card-info-color: #D7DEE8;
-$tenant-ui-card-info-text-color: #003366;
+$tenant-ui-card-info-text-color: #ba0020;
 
 // Status Colors
 $tenant-ui-status-default-background: #c8c8c8; // status chip backgrounds
@@ -34,5 +34,5 @@ $tenant-ui-status-red-color: #C94040;
 $tenant-ui-status-blue-color: #485773;
 
 // Innkeeper 
-$innkeeper-ui-primary-color: #30403e;
+$innkeeper-ui-primary-color: #3d3935;
 $innkeeper-ui-text-on-primary: #ffffff; 
